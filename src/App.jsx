@@ -1,18 +1,13 @@
-// src/App.jsx
-import React from 'react'
+import React from "react";
 
-
-// Import your components
-
-import  SignIn  from './Components/Signin'
-
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
-      <>
-      <SignIn />
-      </>  
-      )
+    <>
+      <Dashboard />
+    </>
+  );
 }
 
-export default App
+export default App;
